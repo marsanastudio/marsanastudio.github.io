@@ -22,6 +22,12 @@
     <p><span class="tag">Ages 4+</span><span class="tag">No ads</span><span class="tag">Works offline</span></p>
     <p>Lilly is a paper doll who explores 50 hand-drawn maps: every room of her home, a park, a castle, Candy Land, a fun fair with real rides, a dino valley and many more. Kids learn letters, numbers, animals, nature, space, fashion, architecture, computers and AI through short fact cards that can be read out loud, play small quizzes, and try jumping, memory, racing and maze challenges.</p>
     <p>No accounts, no chat, no personal data collected. Read our <a href="privacy.html">privacy policy</a>.</p>
+    <p class="playrow"><a class="playbtn" href="play/">▶ Play now in your browser</a></p>
+    <div class="install" id="install">
+      <b>Add Lilly to your home screen</b> — it then opens like an app and works without internet.
+      <p id="ins-ios" hidden>On iPhone or iPad: open this page in <b>Safari</b>, tap <b>Play now</b>, then the <b>Share</b> button <span aria-hidden="true">⬆︎</span> and <b>Add to Home Screen</b>.</p>
+      <p id="ins-other">On Android or a computer: tap <b>Play now</b>, then choose <b>Install app</b> (or <b>Add to Home screen</b>) in the browser menu.</p>
+    </div>
     <p><b>Coming soon to Google Play.</b></p>
   </div>
 
@@ -30,5 +36,9 @@
 
   <footer>© 2026 Marsana Studio · <a href="privacy.html">Privacy policy</a> · <a href="privacy.html#sq">Politika e privatësisë (shqip)</a></footer>
 </div>
+<script>
+if (/iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)) {
+  document.getElementById('ins-ios').hidden = false; document.getElementById('ins-other').hidden = true; }
+</script>
 </body>
 </html>

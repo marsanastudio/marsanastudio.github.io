@@ -25,3 +25,8 @@ ul{padding-left:22px}
 li{margin:4px 0}
 footer{margin-top:40px;color:var(--soft);font-size:14px}
 @media (max-width:520px){header nav{display:none} h1{font-size:38px}}
+.playrow{margin:18px 0 10px}
+.playbtn{display:inline-block;background:#8a5cd0;color:#fff;font-weight:600;font-size:19px;text-decoration:none;border-radius:999px;padding:12px 26px;box-shadow:0 4px 0 #6a3fb8}
+.playbtn:active{transform:translateY(2px);box-shadow:0 2px 0 #6a3fb8}
+.install{background:#f3ecfd;border:1px solid #e1d3f7;border-radius:14px;padding:12px 16px;font-size:15px;color:var(--soft)}
+.install p{margin:6px 0 0}

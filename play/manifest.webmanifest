@@ -1,0 +1,30 @@
+{
+ "name": "Lilly's Crayon Adventures",
+ "short_name": "Lilly",
+ "description": "A hand-drawn 3D adventure for kids. 50 maps, no ads.",
+ "start_url": "./",
+ "scope": "./",
+ "display": "fullscreen",
+ "orientation": "any",
+ "background_color": "#8a5cd0",
+ "theme_color": "#8a5cd0",
+ "lang": "en",
+ "icons": [
+  {
+   "src": "icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ]
+}
